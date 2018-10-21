@@ -1,7 +1,9 @@
 body {background-color: #f2f2f2;}
 .container {max-width: 600px; background-color: #fff; padding: 1rem;}
-.status {display: flex;}
+.post-type .level {padding: .5rem; border-bottom: 1px solid #f2f2f2; border-top: 1px solid #f2f2f2;}
+.status {display: flex; margin: .5rem 0;}
 .status .media-right {text-align: center;}
+.post {margin: 1rem 0;}
 .post-image .level:not(:last-child) {margin-bottom: 0;}
 .post-image .level:not(:last-child) svg {color: #fff;}
 .post-image .level-right small:nth-child(2) {margin-left: 5px;}
