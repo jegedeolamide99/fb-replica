@@ -1,5 +1,6 @@
 body {background-color: #f2f2f2;}
 .container {max-width: 600px; background-color: #fff; padding: 1rem;}
+.status {display: flex;}
 .status .media-right {text-align: center;}
 .post-image .level:not(:last-child) {margin-bottom: 0;}
 .post-image .level:not(:last-child) svg {color: #fff;}
