@@ -1,0 +1,10 @@
+body {background-color: #f2f2f2;}
+.container {max-width: 600px; background-color: #fff; padding: 1rem;}
+.status .media-right {text-align: center;}
+.post-image .level:not(:last-child) {margin-bottom: 0;}
+.post-image .level:not(:last-child) svg {color: #fff;}
+.post-image .level-right small:nth-child(2) {margin-left: 5px;}
+.post-image .level {padding: .5rem; border-bottom: 1px solid #f2f2f2;}
+.post-image .level:last-child a {color: inherit;}
+.post-image .level:last-child svg {margin-right: 5px;}
+.post-image .level .dropdown-menu {min-width: auto;}
