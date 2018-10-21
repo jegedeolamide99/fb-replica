@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hello Bulma!</title>
     <link rel="stylesheet" href="css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
   <section class="section">
     <div class="container">
-      <div class="columns is-mobile">
+      <div class="columns is-mobile status">
         <div class="media">
           <figure class="media-left image is-48x48">
             <img class="is-rounded" src="img/olamide.jpg" alt="">
@@ -21,7 +22,7 @@
           </div>
         </div>
         <div class="media-right">
-          <i class="fas fa-images"></i>
+          <i class="far fa-images"></i>
           <p><small>Photo</small></p>
         </div>
       </div>
@@ -44,6 +45,54 @@
                 <i class="fas fa-ellipsis-h"></i>
               </span>
             </div>
+          </div>
+        </div>
+        <div class="post-image">
+          <figure>
+            <img src="img/olamide.jpg" alt="image" class="image">
+          </figure>
+          <div class="level is-mobile">
+            <div class="level-left">
+              <span class="icon is-medium">
+                <span class="fa-stack">
+                  <i class="fas fa-circle fa-stack-2x has-text-info"></i>
+                  <i class="fas fa-thumbs-up fa-stack-1x"></i>
+                </span>
+              </span>
+              <span class="icon is-medium">
+                <span class="fa-stack">
+                  <i class="fas fa-circle fa-stack-2x has-text-danger"></i>
+                  <i class="fas fa-heart fa-stack-1x"></i>
+                </span>
+              </span>
+              <small>12</small>
+            </div>
+            <div class="level-right">
+              <small>9 Comments</small>
+              <small>2 Shares</small>
+            </div>
+          </div>
+          <div class="level is-mobile">
+            <p class="level-item has-text-centered">
+              <a><i class="far fa-thumbs-up"></i>Like</a>
+            </p>
+            <p class="level-item has-text-centered">
+              <a><i class="far fa-thumbs-down"></i>Dislike</a>
+            </p>
+            <p class="level-item has-text-centered">
+              <a><i class="far fa-comment"></i>Comment</a>
+            </p>
+            <div class="level-item has-text-centered dropdown is-hoverable">
+              <div class="dropdown-trigger">
+                <a aria-haspopup="true" aria-controls="dropdown-menu"><i class="fas fa-share-alt"></i>Share</a>
+              </div>
+              <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                <div class="dropdown-content">
+                  <a href="#" class="dropdown-item">Facebook</a>
+                  <a href="#" class="dropdown-item">Twitter</a>
+                </div>
+              </div>
+            </p>
           </div>
         </div>
         <div class="comments">
