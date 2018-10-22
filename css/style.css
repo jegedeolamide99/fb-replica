@@ -1,6 +1,8 @@
 body {background-color: #f2f2f2;}
 .container {max-width: 600px; background-color: #fff; padding: 1rem;}
 .post-type .level {padding: .5rem; border-bottom: 1px solid #f2f2f2; border-top: 1px solid #f2f2f2; margin-bottom: .5rem;}
+.post-type a, .post-image a {color: #1f74ad;}
+.post-type svg, .post-image .level-item svg {margin-right: 5px;}
 .overlay {position: absolute; background-color: rgba(4, 4, 4, .4); height: 100%; width: 100%; top: 0; left: 0; z-index: 10;}
 .card,.card-image {height: 100%;}
 .card-image figure {height: inherit;}
@@ -9,7 +11,7 @@ body {background-color: #f2f2f2;}
 .status .media-right {text-align: center;}
 .post {margin: 1rem 0;}
 .post-image .level:not(:last-child) {margin-bottom: 0;}
-.post-image .level:not(:last-child) svg {color: #fff;}
+.post-image .level .fa-stack svg {color: #fff;}
 .post-image .level-right small:nth-child(2) {margin-left: 5px;}
 .post-image .level {padding: .5rem; border-bottom: 1px solid #f2f2f2;}
 .post-image .level:last-child a {color: inherit;}
